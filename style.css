@@ -71,4 +71,23 @@
         height: 200px;
     }
 
+    /* Take two */
+    #takes-two{
+        min-height: 500px;
+        background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+        background-size: contain;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #takes-two .col-7 {
+        min-height: 100px;
+    }
+
+    #takes-two .col-11, #takes-two .col-3 {
+        min-height: 40px;
+    }
+
+
+
 
