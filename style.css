@@ -26,7 +26,9 @@
     }
 
     /* ! Utils */
-
+    .bg-custom-light-black {
+        background-color: var(--light-black);
+    }
 
 
     /* ! Header */
@@ -71,8 +73,8 @@
         height: 200px;
     }
 
-    /* Take two */
-    #takes-two{
+    /* Takes two */
+    #takes-two {
         min-height: 500px;
         background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
         background-size: contain;
@@ -86,6 +88,14 @@
 
     #takes-two .col-11, #takes-two .col-3 {
         min-height: 40px;
+    }
+
+    /* New releases */
+    #new-releases {
+        background-color: var(--light-black);
+    }
+    #new-releases .col-5, #new-releases .col-10 {
+       min-height: 40px; 
     }
 
 
