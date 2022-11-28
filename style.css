@@ -15,9 +15,19 @@
     header {
         height: 120px;
         background-color: orange;
+        position: sticky;
+        top: 0;
+        left: 0;
+    }
+
+    main {
+        height: calc(100vh - 120px);
+        overflow-y: auto;
     }
 
     /* Utils */
+
+    
 
     /* Header */
     .header-top {
