@@ -57,6 +57,14 @@
         min-height: 40px;
     }
 
-    
+    /* Images-title */
+    #img-title {
+        height: 500px;
+        background-color: var(--white);
+    }
+
+    #img-title .row .col-6 {
+        background-color: yellow;
+    }
 
 
