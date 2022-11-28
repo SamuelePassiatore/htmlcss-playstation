@@ -12,9 +12,26 @@
 }
   
     /* Generics */
-
+    header {
+        height: 120px;
+        background-color: orange;
+    }
 
     /* Utils */
 
+    /* Header */
+    .header-top {
+        min-height: 40px;
+    }
+
+    .header-top img {
+        height: 15px;
+    }
+
+    .header-bottom {
+        min-height: 80px;
+    }
+
 
     /* Sections */
+
