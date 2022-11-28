@@ -59,12 +59,16 @@
 
     /* Images-title */
     #img-title {
-        height: 500px;
         background-color: var(--white);
     }
 
     #img-title .row .col-6 {
         background-color: yellow;
+    }
+
+    /* Console-tools */
+    #console-tools .img-bigger {
+        height: 200px;
     }
 
 
