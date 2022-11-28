@@ -1,4 +1,4 @@
-    /* Custom properties */
+    /* ! Custom properties */
     :root{
         --white: #FFFFFF;
         --black: #000000;
@@ -11,7 +11,7 @@
         --blue: #00439C;
 }
   
-    /* Generics */
+    /* ! Generics */
     header {
         height: 120px;
         background-color: orange;
@@ -25,11 +25,11 @@
         overflow-y: auto;
     }
 
-    /* Utils */
+    /* ! Utils */
 
-    
 
-    /* Header */
+
+    /* ! Header */
     .header-top {
         min-height: 40px;
     }
@@ -42,6 +42,21 @@
         min-height: 80px;
     }
 
+    /* ! Main */
 
-    /* Sections */
+    /* Jumbotron */
+    #returnal {
+        min-height: 550px;
+        background-image: url(../htmlcss-playstation/img/jumbo-bg.png);
+        background-size: contain;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #returnal .col-7, #returnal .col-12, #returnal .col-3 {
+        min-height: 40px;
+    }
+
+    
+
 
