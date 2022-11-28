@@ -100,8 +100,15 @@
 
     /* Explore-play4  */
 
+    
+    /* Play-plus */
     #play-plus {
         background-color: var(--light-grey);
+    }
+
+    /* Play now */
+    #play-now {
+        background-color: var(--dark-blue);
     }
 
 
