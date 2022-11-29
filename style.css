@@ -1,6 +1,7 @@
     /* ! Custom properties */
     :root{
         --white: #FFFFFF;
+        --dark-white: #D9DADC;
         --black: #000000;
         --light-black: #1F1F1F;
         --dark-grey: #363636;
@@ -30,8 +31,16 @@
         background-color: var(--light-black);
     }
 
+    .bg-custom-dark-white {
+        background-color: var(--dark-white);
+    }
+
     .bg-custom-dark-grey {
         background-color: var(--dark-grey);
+    }
+
+    .bg-custom-light-grey {
+        background-color: var(--light-grey);
     }
 
     .bg-custom-red {
@@ -108,13 +117,15 @@
         padding-bottom: 60px;
     }
 
-    /* Explore-play4  */
-    #explore-play4 h3 {
-        height: 100px;
-    }
-
-    #explore-play4 .col-12 > p {
-        height: 120px;
+    /* Explore-play4  */    
+    @media screen and (min-width: 768px){
+        #explore-play4 h3 {
+            height: 100px;
+        }
+    
+        #explore-play4 .col-12 > p {
+            height: 120px;
+        }
     }
 
     @media screen and (min-width: 1400px){
@@ -127,10 +138,15 @@
         }
     }
 
-    
     /* Play-plus */
     #play-plus {
         background-color: var(--light-grey);
+    }
+
+    @media screen and (min-width: 1400px){
+        #play-plus p, #play-plus a {
+            font-size: 19px;
+        }
     }
 
     /* Play now */
