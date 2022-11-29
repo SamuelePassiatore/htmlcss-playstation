@@ -14,16 +14,10 @@
     /* ! Generics */
     header {
         height: 120px;
-        background-color: orange;
         position: sticky;
         top: 0;
         left: 0;
         z-index: 1;
-    }
-
-    main {
-        height: calc(100vh - 120px);
-        overflow-y: auto;
     }
 
     footer {
@@ -35,6 +29,12 @@
         background-color: var(--light-black);
     }
 
+    .bg-custom-dark-grey {
+        background-color: var(--dark-grey);
+    }
+
+
+
 
     /* ! Header */
     .header-top {
@@ -45,8 +45,12 @@
         height: 15px;
     }
 
-    .header-bottom {
-        min-height: 80px;
+    .header-bottom .navbar img.chevron {
+        height: 12px;
+    }
+
+    .header-bottom .navbar img.lens {
+        height: 30px;
     }
 
     /* ! Main */
