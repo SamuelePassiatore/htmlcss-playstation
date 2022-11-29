@@ -60,22 +60,13 @@
         background-position: center;
     }
 
-    #returnal .col-7, #returnal .col-12, #returnal .col-3 {
+    #returnal .col-12 {
         min-height: 40px;
     }
 
     /* Images-title */
     #img-title {
         background-color: var(--white);
-    }
-
-    #img-title .row .col-6 {
-        background-color: yellow;
-    }
-
-    /* Console-tools */
-    #console-tools .img-bigger {
-        height: 200px;
     }
 
     /* Takes two */
@@ -87,20 +78,13 @@
         background-position: center;
     }
 
-    #takes-two .col-7 {
+    #takes-two .col-12 {
         min-height: 100px;
-    }
-
-    #takes-two .col-11, #takes-two .col-3 {
-        min-height: 40px;
     }
 
     /* New releases */
     #new-releases {
         background-color: var(--light-black);
-    }
-    #new-releases .col-5, #new-releases .col-10 {
-       min-height: 40px; 
     }
 
     /* Explore-play4  */
@@ -117,15 +101,15 @@
     }
 
     /* Footer */
-    .footer-top img.symbol-ps {
+    footer img.symbol-ps {
         height: 100px;
     }
 
-    .footer-top img.symbol-language {
+    footer img.symbol-language {
         height: 20px;
     }
 
-    .footer-bottom img.symbol-sony {
+    footer img.symbol-sony {
         height: 60px;
     }
 
