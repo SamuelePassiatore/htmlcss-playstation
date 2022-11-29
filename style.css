@@ -41,6 +41,10 @@
         font-size: 43px;
     }
 
+    .padding-bigger {
+        padding-bottom: 100px;
+    }
+
 
     /* ! Header */
     .header-top {
