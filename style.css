@@ -109,6 +109,23 @@
     }
 
     /* Explore-play4  */
+    #explore-play4 h3 {
+        height: 100px;
+    }
+
+    #explore-play4 .col-12 > p {
+        height: 120px;
+    }
+
+    @media screen and (min-width: 1400px){
+        #explore-play4 h3 {
+            height: 60px;
+        }
+    
+        #explore-play4 .col-12 > p {
+            height: 70px;
+        }
+    }
 
     
     /* Play-plus */
