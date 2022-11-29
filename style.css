@@ -33,7 +33,13 @@
         background-color: var(--dark-grey);
     }
 
+    .bg-custom-red {
+        background-color: var(--red);
+    }
 
+    h2 {
+        font-size: 43px;
+    }
 
 
     /* ! Header */
@@ -61,11 +67,8 @@
         background-image: url(../htmlcss-playstation/img/jumbo-bg.png);
         background-size: contain;
         background-size: cover;
-        background-position: center;
-    }
-
-    #returnal .col-12 {
-        min-height: 40px;
+        background-position: top center;
+        padding-bottom: 60px;
     }
 
     /* Images-title */
