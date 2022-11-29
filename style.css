@@ -4,11 +4,12 @@
         --black: #000000;
         --light-black: #1F1F1F;
         --dark-grey: #363636;
-        --grey: #818181;
+        --grey: #727272;
         --light-grey: #BEBCBB;
         --red: #CD3D0F;
         --dark-blue: #161C3B;
         --blue: #00439C;
+        --light-blue: #0070D1;
 }
   
     /* ! Generics */
@@ -35,6 +36,14 @@
 
     .bg-custom-red {
         background-color: var(--red);
+    }
+
+    .text-custom-light-blue {
+        color: var(--light-blue);
+    }
+
+    .text-custom-grey {
+        color: var(--grey);
     }
 
     h2 {
