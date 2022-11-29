@@ -154,6 +154,12 @@
         background-color: var(--dark-blue);
     }
 
+    @media screen and (min-width: 1400px){
+        #play-now p, #play-now a {
+            font-size: 20px;
+        }
+    }
+
     /* Footer */
     footer img.symbol-ps {
         height: 100px;
