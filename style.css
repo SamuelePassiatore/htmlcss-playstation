@@ -195,7 +195,7 @@
 
 /* Img scale plus hover */
 #img-title img {
-    transition: transform .3s;
+    transition: transform 1s;
 }
 
 #img-title img:hover {
@@ -212,6 +212,7 @@
 #navbarNav a.nav-link:hover , #navbar-Nav a.nav-link:hover {
     color: var(--black);
 }
+
 
 
 
