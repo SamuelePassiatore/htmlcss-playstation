@@ -85,6 +85,10 @@
         height: 30px;
     }
 
+    #navbarNav a.nav-link, #navbar-Nav a.nav-link {
+        color: var(--light-grey);
+    }
+
     /* ! Main */
 
     /* Jumbotron */
@@ -202,6 +206,11 @@
 #console-tools .card.opacity-custom:hover {
     opacity: 1.0;
     border-color: var(--light-blue-primary);
+}
+
+/* Link navbar change color hover */
+#navbarNav a.nav-link:hover , #navbar-Nav a.nav-link:hover {
+    color: var(--black);
 }
 
 
