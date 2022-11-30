@@ -26,6 +26,14 @@
         background-color: var(--blue);
     }
 
+    h2 {
+        font-size: 43px;
+    }
+
+    h3 {
+        font-size: 38px;
+    }
+
     /* ! Utils */
     .bg-custom-light-black {
         background-color: var(--light-black);
@@ -55,17 +63,10 @@
         color: var(--grey);
     }
 
-    h2 {
-        font-size: 43px;
-    }
-
-    h3 {
-        font-size: 38px;
-    }
-
     .padding-bigger {
         padding-bottom: 100px;
     }
+
 
 
     /* ! Header */
@@ -172,6 +173,22 @@
     footer img.symbol-sony {
         height: 60px;
     }
+
+
+
+/*************** Effects ****************/
+
+/* Button hover */
+
+/* Img scale plus hover */
+#img-title img {
+    transition: transform .3s;
+}
+
+#img-title img:hover {
+    transform: scale(1.05) translateY(-10px);
+}
+
 
 
 
