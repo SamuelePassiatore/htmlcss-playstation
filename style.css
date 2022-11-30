@@ -11,6 +11,7 @@
         --dark-blue: #161C3B;
         --blue: #00439C;
         --light-blue: #0070D1;
+        --light-blue-primary: #0D6EFD;
 }
   
     /* ! Generics */
@@ -67,8 +68,6 @@
         padding-bottom: 100px;
     }
 
-
-
     /* ! Header */
     .header-top {
         min-height: 40px;
@@ -101,6 +100,16 @@
     /* Images-title */
     #img-title {
         background-color: var(--white);
+    }
+
+    /* Console tools */
+    #console-tools .card.opacity-custom {
+        opacity: 0.4;
+        border-right: 0px;
+        border-top: 0px;
+        border-left: 0px;
+        border-radius: 0px;
+        border-bottom: 3px solid var(--white);
     }
 
     /* Takes two */
@@ -176,7 +185,7 @@
 
 
 
-/*************** Effects ****************/
+/***************! Effects ****************/
 
 /* Button hover */
 
@@ -187,6 +196,12 @@
 
 #img-title img:hover {
     transform: scale(1.05) translateY(-10px);
+}
+
+/* Img opacity hover  */
+#console-tools .card.opacity-custom:hover {
+    opacity: 1.0;
+    border-color: var(--light-blue-primary);
 }
 
 
